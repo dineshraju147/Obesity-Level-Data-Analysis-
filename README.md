@@ -18,7 +18,7 @@ This project implements a scalable ETL pipeline using **Google Cloud Platform (G
 ## 📈 ETL Pipeline Architecture
 
 
-![ETL Pipeline Flow](images/etl_pipeline_flow.png)
+![ETL Pipeline Flow](Images/etl_pipeline_flow.png)
 
 ---
 
@@ -55,7 +55,7 @@ This project implements a scalable ETL pipeline using **Google Cloud Platform (G
 
 ⚠️ _Due to licensing restrictions in Power BI, the dashboard itself cannot be shared publicly._
 
-![Dashboard Preview](images/powerbi_dashboard.png)
+![Dashboard Preview](Images/powerbi_dashboard.png)
 
 ---
 
