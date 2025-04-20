@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww16220\viewh12720\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 \'a0\
+# Wrangler code:\
+cleanse-column-names \
+set-column :family_history_with_overweight family_history_with_overweight == "yes" ? 1 : 0\
+set-column :favc favc == "yes" ? 1 : 0\
+set-column :smoke smoke == "yes" ? 1 : 0\
+set-column :scc scc == "yes" ? 1 : 0\
+set-column :bmi weight / (height * height)\
+set-column :age_group age <= 25 ? "Youth" : age <= 35 ? "Young Adult" : age <= 50 ? "Adult" : "Senior"\
+set-type :fcvc float \
+set-type :ncp float \
+set-type :ch2o float \
+set-type :faf float \
+set-type :age float \
+set-type :height float \
+set-type :weight float \
+set-type :bmi float \
+set-type :tue float \
+set-column :lifestyle_score faf + tue + ch2o + (1 - favc) + (1 - smoke) - scc\
+rename :favc FCOHCF\
+rename :fcvc FCOV\
+rename :ncp NMM\
+rename :caec COFBM\
+rename :ch2o CH2O\
+rename :scc Calorie_Consump_Monitoring\
+rename :faf Physical_Activity_F\
+rename :tue Time_using_techno_D\
+rename :calc Consumption_Alc\
+rename :nobeyesdad NObesity\
+}
