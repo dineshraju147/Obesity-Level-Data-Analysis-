@@ -18,7 +18,7 @@ This project implements a scalable ETL pipeline using **Google Cloud Platform (G
 ## 📈 ETL Pipeline Architecture
 
 
-<img src="images/etl_pipeline_flow.png" alt="ETL Pipeline" width="500"/>
+<img src="Images/etl_pipeline_flow.png" alt="ETL Pipeline" width="500"/>
 
 ---
 
